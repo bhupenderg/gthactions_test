@@ -1,0 +1,10 @@
+name: First Workflow!
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: Windows 11 64-bit
+    steps: 
+      - name: Print Greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "GoodBye"
